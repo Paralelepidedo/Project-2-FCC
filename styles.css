@@ -1,0 +1,106 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-color: #8A9FA4 ;
+}
+h1{
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 5px;
+}
+.subtitulo{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+}
+img{
+    display: block;
+}
+title{
+    margin: auto;
+    text-align: center;
+}
+.bio img{ /* Imagen de Musk*/
+    padding: 0 10px 0 20px;
+    max-height: 175px;
+    margin-left: auto;
+}
+.bio img:hover{
+    max-height: 300px;
+}
+.flex {
+    display: flex; 
+}
+.bio { /* seccion bio*/
+    width: 55%;
+    max-width: 80%;
+}
+#image { /*Imagen de Musk y Obama */
+    display: block;
+    max-width:100%;
+    padding-top: 20px;
+    margin: auto;
+}
+#img-div:hover{
+    color:bisque;
+    font-weight: bold;
+    background-color: black;
+    max-width: 50%;
+    margin-left: -400px;
+}
+#info-div{ /* Div con la info*/
+    margin-left: 8px ;
+    max-width: 75%;
+    padding-right: 15px;
+}
+.logos{
+    display: inline-block;
+    padding: 0 5px;
+    margin-top: auto;
+}
+.empresas{
+margin-left: 10px;
+font-style: italic;
+font-weight: bold;
+font-size: 18px;
+color:darkred;
+}
+li{
+    margin-left: 15px;
+    padding: 15px 0;
+}
+.cargo{
+    display: inline-block;
+}
+.cargo p{
+    font-size: 12px;
+    padding-top: 10px;
+    margin-bottom: -50px;
+    padding-left: 20px;
+    text-align: left;
+}
+ul {
+    max-width: 50%;
+}
+footer{
+    background-color: #252525;
+    height: 50px;
+}
+footer p{
+    color:crimson;
+    text-align: center;
+    margin:0;
+}
+footer p a{
+    color: aquamarine;
+}
+section div h2{
+    font-size: 20px;
+    color:darkblue;
+}
+#locacion{
+    color: black;
+    font-weight: bold;
+}
